@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rio Maris — Passeios de Lancha e Iate no Rio de Janeiro | Exclusive Experiences at Sea</title>
+<title>Rio Maris · Exclusive Experiences at Sea</title>
 <meta name="description" content="Passeios privativos de lancha e iate no Rio de Janeiro com curadoria personalizada entre mais de 50 embarcações. Atendimento em português, inglês e espanhol. Fale agora no WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -13,48 +13,43 @@
 <div class="grain"></div>
 
 <header>
-  <div class="header-left">
-    <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menu"><span></span></button>
-    <div class="brand">
-      <img src="assets/logo-rio-maris.jpg" alt="Rio Maris">
-      <div class="brand-text">
-        <span class="brand-word">RIO MARIS</span>
-        <span class="brand-sub">Exclusive Experiences at Sea</span>
-      </div>
+  <div class="brand">
+    <img src="assets/logo-rio-maris.jpg" alt="Rio Maris">
+    <div>
+      <span class="brand-word">RIO MARIS</span>
+      <span class="brand-sub">Exclusive Experiences at Sea</span>
     </div>
   </div>
   <nav>
-    <a href="#roteiros">Roteiros</a>
-    <a href="#barcos">Barcos</a>
-    <a href="#funciona">Como Funciona</a>
+    <a href="#roteiros" data-i18n="nav_roteiros">Roteiros</a>
+    <a href="#barcos" data-i18n="nav_barcos">Barcos</a>
+    <a href="#funciona" data-i18n="nav_como_funciona">Como Funciona</a>
   </nav>
-  <div class="header-right">
-    <div class="lang-switch">
-      <span class="active">PT</span><span>EN</span><span>ES</span>
-    </div>
-    <a class="btn-whatsapp" href="#" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.9 1-.3.2-.6.1a6.7 6.7 0 01-2-1.2 7.4 7.4 0 01-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4.2-.2.3-.4a.5.5 0 000-.5c-.1-.1-.6-1.5-.9-2s-.5-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4c.6.3 1.1.4 1.5.6a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.1-1.3c-.1-.1-.2-.2-.4-.3z"/></svg>
-      <span class="btn-label-full">Falar no WhatsApp</span>
-      <span class="btn-label-short">WhatsApp</span>
-    </a>
+  <div class="lang-switch">
+    <span class="active" data-lang="pt">PT</span><span data-lang="en">EN</span><span data-lang="es">ES</span>
   </div>
+  <a class="btn-whatsapp" href="#">
+    <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.9 1-.3.2-.6.1a6.7 6.7 0 01-2-1.2 7.4 7.4 0 01-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4.2-.2.3-.4a.5.5 0 000-.5c-.1-.1-.6-1.5-.9-2s-.5-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4c.6.3 1.1.4 1.5.6a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.1-1.3c-.1-.1-.2-.2-.4-.3z"/></svg>
+    <span data-i18n="whatsapp_cta">Falar no WhatsApp</span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menu"><span></span></button>
 </header>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
-    <span class="eyebrow">Rio de Janeiro · Curadoria Privativa no Mar</span>
-    <h1 class="display">O Rio de Janeiro<br>visto do mar,<br><em>do seu jeito.</em></h1>
-    <p class="sub">Passeios privativos de lancha e iate com curadoria personalizada — escolhemos a embarcação certa entre mais de 50 opções, para o seu grupo e a sua ocasião.</p>
+    <span class="eyebrow" data-i18n="hero_eyebrow">Rio de Janeiro · Curadoria Privativa no Mar</span>
+    <h1 class="display" data-i18n="hero_h1" data-i18n-html="1">O Rio de Janeiro<br>visto do mar,<br><em>do seu jeito.</em></h1>
+    <p class="sub" data-i18n="hero_sub">Passeios privativos de lancha e iate com curadoria personalizada: escolhemos a embarcação certa entre mais de 50 opções, para o seu grupo e a sua ocasião.</p>
     <div class="cta-row">
-      <a class="btn-whatsapp large" href="#" target="_blank" rel="noopener">
+      <a class="btn-whatsapp large" href="#">
         <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.9 1-.3.2-.6.1a6.7 6.7 0 01-2-1.2 7.4 7.4 0 01-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4.2-.2.3-.4a.5.5 0 000-.5c-.1-.1-.6-1.5-.9-2s-.5-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4c.6.3 1.1.4 1.5.6a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.1-1.3c-.1-.1-.2-.2-.4-.3z"/></svg>
-        Falar no WhatsApp
+        <span data-i18n="whatsapp_cta">Falar no WhatsApp</span>
       </a>
-      <a class="btn-ghost" href="#roteiros">Ver Roteiros</a>
+      <a class="btn-ghost" href="#roteiros" data-i18n="hero_ver_roteiros">Ver Roteiros</a>
     </div>
   </div>
-  <div class="scroll-cue"><span class="line"></span> Role para descobrir</div>
+  <div class="scroll-cue"><span class="line"></span> <span data-i18n="scroll_cue">Role para descobrir</span></div>
 </section>
 
 <div class="wave-divider">
@@ -66,24 +61,24 @@
 <!-- PILARES -->
 <section id="funciona">
   <div class="section-head">
-    <span class="eyebrow">Por que Rio Maris</span>
-    <h2 class="display">Não vendemos barco. <br>Vendemos a escolha certa.</h2>
+    <span class="eyebrow" data-i18n="pillars_eyebrow">Por que Rio Maris</span>
+    <h2 class="display" data-i18n="pillars_h2" data-i18n-html="1">Não vendemos barco. <br>Vendemos a escolha certa.</h2>
   </div>
   <div class="pillars">
     <div class="pillar">
       <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg></div>
-      <h3 class="display">Curadoria Personalizada</h3>
-      <p>Entre mais de 50 embarcações, indicamos até 5 opções ideais pro seu grupo.</p>
+      <h3 class="display" data-i18n="pillar1_h3">Curadoria Personalizada</h3>
+      <p data-i18n="pillar1_p">Entre mais de 50 embarcações, indicamos até 5 opções ideais pro seu grupo.</p>
     </div>
     <div class="pillar">
       <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><path d="M12 3l7 3v6c0 5-3.5 8-7 9-3.5-1-7-4-7-9V6z"/></svg></div>
-      <h3 class="display">Segurança e Credibilidade</h3>
-      <p>Marinheiros habilitados, embarcações vistoriadas, negociação transparente do início ao fim.</p>
+      <h3 class="display" data-i18n="pillar2_h3">Segurança e Credibilidade</h3>
+      <p data-i18n="pillar2_p">Marinheiros habilitados, embarcações vistoriadas, negociação transparente do início ao fim.</p>
     </div>
     <div class="pillar">
       <div class="pillar-mark"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.3"><path d="M12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9-9 4.03-9 9 4.03 9 9 9z"/><path d="M3 12h18M12 3c2.5 2.4 4 5.6 4 9s-1.5 6.6-4 9c-2.5-2.4-4-5.6-4-9s1.5-6.6 4-9z"/></svg></div>
-      <h3 class="display">Atendimento no Seu Idioma</h3>
-      <p>Português, inglês ou espanhol — resposta rápida no WhatsApp, sempre.</p>
+      <h3 class="display" data-i18n="pillar3_h3">Atendimento no Seu Idioma</h3>
+      <p data-i18n="pillar3_p">Português, inglês ou espanhol: resposta rápida no WhatsApp, sempre.</p>
     </div>
   </div>
 </section>
@@ -97,73 +92,75 @@
 <!-- ROTEIROS -->
 <section id="roteiros">
   <div class="section-head">
-    <span class="eyebrow">Roteiros</span>
-    <h2 class="display">Nossos roteiros mais procurados</h2>
-    <p>Cada roteiro sai da Marina da Glória e passa pelos pontos mais icônicos da orla — a diferença está no destino final e no motivo da viagem.</p>
+    <span class="eyebrow" data-i18n="roteiros_eyebrow">Roteiros</span>
+    <h2 class="display" data-i18n="roteiros_h2">Nossos roteiros mais procurados</h2>
+    <p data-i18n="roteiros_p">Cada roteiro sai da Marina da Glória e passa pelos pontos mais icônicos da orla. A diferença está no destino final e no motivo da viagem.</p>
   </div>
   <div class="card-row">
     <div class="route-card">
       <div class="route-media" style="background-image:url('assets/pao-de-acucar-veleiro.jpg');">
-        <span class="tag">Família</span>
-        <span class="badge">Melhor Custo-Benefício</span>
+        <span class="tag" data-i18n="route1_tag">Família</span>
+        <span class="badge" data-i18n="route1_badge">Melhor Custo-Benefício</span>
       </div>
       <div class="route-body">
-        <div class="route-name display">Roteiro 1 — Urca</div>
-        <div class="route-subtitle">Melhor Custo-Benefício</div>
-        <div class="route-meta"><span>5 horas</span>·<span>Marina da Glória → Mureta da Urca</span></div>
-        <p class="desc">Flamengo, Botafogo e parada pra mergulho na Mureta da Urca — o roteiro mais completo pelo melhor preço.</p>
-        <a class="route-link" href="#">Ver roteiro completo →</a>
+        <div class="route-name display" data-i18n="route1_name">Roteiro 1: Urca</div>
+        <div class="route-subtitle" data-i18n="route1_badge">Melhor Custo-Benefício</div>
+        <div class="route-meta"><span data-i18n="duration_5h">5 horas</span>·<span data-i18n="route1_meta">Marina da Glória → Mureta da Urca</span></div>
+        <p class="desc" data-i18n="route1_desc">Flamengo, Botafogo e parada pra mergulho na Mureta da Urca: o roteiro mais completo pelo melhor preço.</p>
+        <a class="route-link" href="#"><span data-i18n="route_link">Ver roteiro completo →</span></a>
       </div>
     </div>
     <div class="route-card">
       <div class="route-media" style="background-image:url('assets/veleiro-entardecer.jpg');">
-        <span class="tag">Clássico</span>
-        <span class="badge">★ Best Seller</span>
+        <span class="tag" data-i18n="route2_tag">Clássico</span>
+        <span class="badge" data-i18n="route2_badge">★ Best Seller</span>
       </div>
       <div class="route-body">
-        <div class="route-name display">Roteiro 2 — Praia Vermelha</div>
-        <div class="route-subtitle">Mais Vendido</div>
-        <div class="route-meta"><span>5 horas</span>·<span>Marina da Glória → Praia Vermelha</span></div>
-        <p class="desc">O roteiro mais reservado da Rio Maris — os principais pontos do Rio com parada pra mergulho na Praia Vermelha.</p>
-        <a class="route-link" href="#">Ver roteiro completo →</a>
+        <div class="route-name display" data-i18n="route2_name">Roteiro 2: Praia Vermelha</div>
+        <div class="route-subtitle" data-i18n="route2_subtitle">Mais Vendido</div>
+        <div class="route-meta"><span data-i18n="duration_5h">5 horas</span>·<span data-i18n="route2_meta">Marina da Glória → Praia Vermelha</span></div>
+        <p class="desc" data-i18n="route2_desc">O roteiro mais reservado da Rio Maris: os principais pontos do Rio com parada pra mergulho na Praia Vermelha.</p>
+        <a class="route-link" href="#"><span data-i18n="route_link">Ver roteiro completo →</span></a>
       </div>
     </div>
     <div class="route-card">
       <div class="route-media" style="background-image:url('assets/lagoa-entardecer.jpg');">
-        <span class="tag">Lua de Mel</span>
+        <span class="tag" data-i18n="route3_tag">Lua de Mel</span>
         <span class="stars">★★★★★</span>
       </div>
       <div class="route-body">
-        <div class="route-name display">Roteiro 4 — Ilhas Cagarras</div>
-        <div class="route-subtitle">Melhor Experiência</div>
-        <div class="route-meta"><span>5 horas</span>·<span>Marina da Glória → Ilhas Cagarras</span></div>
-        <p class="desc">O roteiro mais completo: Copacabana, Praia Vermelha e mergulho em mar aberto nas Ilhas Cagarras — nossa experiência mais bem avaliada.</p>
-        <a class="route-link" href="#">Ver roteiro completo →</a>
+        <div class="route-name display" data-i18n="route3_name">Roteiro 4: Ilhas Cagarras</div>
+        <div class="route-subtitle" data-i18n="route3_subtitle">Melhor Experiência</div>
+        <div class="route-meta"><span data-i18n="duration_5h">5 horas</span>·<span data-i18n="route3_meta">Marina da Glória → Ilhas Cagarras</span></div>
+        <p class="desc" data-i18n="route3_desc">O roteiro mais completo: Copacabana, Praia Vermelha e mergulho em mar aberto nas Ilhas Cagarras, nossa experiência mais bem avaliada.</p>
+        <a class="route-link" href="#"><span data-i18n="route_link">Ver roteiro completo →</span></a>
       </div>
     </div>
   </div>
   <div class="pending-note">
-    <b>Pendente:</b> faltam os Roteiros 3 e 5 para completar a vitrine com os 5 principais. Assim que tivermos nome, pontos e diferencial de cada um, adicionamos aqui.
+    <span data-i18n="pending_note" data-i18n-html="1"><b>Pendente:</b> faltam os Roteiros 3 e 5 para completar a vitrine com os 5 principais. Assim que tivermos nome, pontos e diferencial de cada um, adicionamos aqui.</span>
   </div>
 </section>
 
 <!-- BARCOS -->
 <section id="barcos">
   <div class="section-head">
-    <span class="eyebrow">Barcos</span>
-    <h2 class="display">Uma amostra da nossa frota</h2>
-    <p>Não somos donos de uma frota — curamos entre mais de 50 embarcações parceiras para indicar a ideal pro seu grupo. Aqui estão alguns exemplos do padrão que selecionamos.</p>
+    <span class="eyebrow" data-i18n="barcos_eyebrow">Barcos</span>
+    <h2 class="display" data-i18n="barcos_h2">Uma amostra da nossa frota</h2>
+    <p data-i18n="barcos_p">Não somos donos de uma frota: curamos entre mais de 50 embarcações parceiras para indicar a ideal pro seu grupo. Aqui estão alguns exemplos do padrão que selecionamos.</p>
   </div>
   <div class="boat-row">
     <div class="boat-card" style="background-image:url('assets/iate-por-do-sol.jpg');">
-      <span class="boat-label display">Lancha esportiva</span>
+      <span class="boat-label display" data-i18n="boat1_label">Deck Panorâmico</span>
+    </div>
+    <div class="boat-card" style="background-image:url('assets/iate-flybridge.jpg');">
+      <span class="boat-label display" data-i18n="boat2_label">Iate Flybridge</span>
     </div>
     <div class="boat-card" style="background-image:url('assets/veleiro-entardecer.jpg');">
-      <span class="boat-label display">Iate de luxo</span>
+      <span class="boat-label display" data-i18n="boat3_label">Passeio em Grupo</span>
     </div>
-    <div class="boat-placeholder">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.2"><path d="M3 17l2-7h14l2 7M5 17h14M12 3v7"/></svg>
-      <span>Espaço reservado para mais fotos reais da frota — envie as melhores imagens pra completarmos essa vitrine.</span>
+    <div class="boat-card" style="background-image:url('assets/iate-classico.jpg');">
+      <span class="boat-label display" data-i18n="boat4_label">Iate Clássico</span>
     </div>
   </div>
 </section>
@@ -172,22 +169,22 @@
 <div class="proof">
   <div class="proof-quote">
     <div class="quote-mark">"</div>
-    <p class="quote display">Vieram sem saber qual barco escolher — a Rio Maris resolveu tudo, e o passeio foi exatamente o que a gente sonhava pra celebrar.</p>
-    <div class="who">Casal chileno · Lua de mel · Ipanema</div>
+    <p class="quote display" data-i18n="proof_quote">Vieram sem saber qual barco escolher. A Rio Maris resolveu tudo, e o passeio foi exatamente o que a gente sonhava pra celebrar.</p>
+    <div class="who" data-i18n="proof_who">Casal chileno · Lua de mel · Ipanema</div>
   </div>
   <div class="proof-stats">
-    <div class="stat"><div class="num display">50+</div><div class="label">Embarcações curadas</div></div>
-    <div class="stat"><div class="num display">3</div><div class="label">Idiomas de atendimento</div></div>
-    <div class="stat"><div class="num display">5h</div><div class="label">Duração média do passeio</div></div>
-    <div class="stat"><div class="num display">100%</div><div class="label">Passeios privativos</div></div>
+    <div class="stat"><div class="num display">50+</div><div class="label" data-i18n="stat1_label">Embarcações curadas</div></div>
+    <div class="stat"><div class="num display">3</div><div class="label" data-i18n="stat2_label">Idiomas de atendimento</div></div>
+    <div class="stat"><div class="num display">5h</div><div class="label" data-i18n="stat3_label">Duração média do passeio</div></div>
+    <div class="stat"><div class="num display">100%</div><div class="label" data-i18n="stat4_label">Passeios privativos</div></div>
   </div>
 </div>
 
 <!-- INTERNACIONAL -->
 <div class="intl">
   <div class="intl-text">
-    <h2>Feito para quem vem de fora</h2>
-    <p>Pagamento internacional facilitado, atendimento em português, inglês e espanhol, e localização estratégica perto de onde você está hospedado.</p>
+    <h2 data-i18n="intl_h2">Feito para quem vem de fora</h2>
+    <p data-i18n="intl_p">Pagamento internacional facilitado, atendimento em português, inglês e espanhol, e localização estratégica perto de onde você está hospedado.</p>
   </div>
   <div class="intl-langs">
     <div class="lang-pill">PT</div>
@@ -199,35 +196,35 @@
 <!-- FAQ -->
 <section id="faq">
   <div class="section-head">
-    <span class="eyebrow">Dúvidas</span>
-    <h2 class="display">Perguntas frequentes</h2>
+    <span class="eyebrow" data-i18n="faq_eyebrow">Dúvidas</span>
+    <h2 class="display" data-i18n="faq_h2">Perguntas frequentes</h2>
   </div>
   <div class="faq-list">
     <div class="faq-item">
       <div>
-        <h4>Quanto custa um passeio de barco privativo no Rio de Janeiro?</h4>
-        <p class="faq-answer">O valor varia conforme a embarcação, a duração e o roteiro escolhido. Como fazemos curadoria personalizada entre mais de 50 opções, o jeito mais rápido de receber um orçamento certo pro seu grupo é falar com a gente no WhatsApp.</p>
+        <h4 data-i18n="faq1_q">Quanto custa um passeio de barco privativo no Rio de Janeiro?</h4>
+        <p class="faq-answer" data-i18n="faq1_a">O valor varia conforme a embarcação, a duração e o roteiro escolhido. Como fazemos curadoria personalizada entre mais de 50 opções, o jeito mais rápido de receber um orçamento certo pro seu grupo é falar com a gente no WhatsApp.</p>
       </div>
       <span class="faq-plus">+</span>
     </div>
     <div class="faq-item">
       <div>
-        <h4>É seguro reservar e pagar antes de chegar ao Brasil?</h4>
-        <p class="faq-answer">Sim. Trabalhamos só com marinheiros habilitados e embarcações vistoriadas, com negociação transparente do início ao fim e pagamento internacional facilitado para quem vem de fora.</p>
+        <h4 data-i18n="faq2_q">É seguro reservar e pagar antes de chegar ao Brasil?</h4>
+        <p class="faq-answer" data-i18n="faq2_a">Sim. Trabalhamos só com marinheiros habilitados e embarcações vistoriadas, com negociação transparente do início ao fim e pagamento internacional facilitado para quem vem de fora.</p>
       </div>
       <span class="faq-plus">+</span>
     </div>
     <div class="faq-item">
       <div>
-        <h4>Vocês atendem em inglês e espanhol?</h4>
-        <p class="faq-answer">Sim, atendemos em português, inglês e espanhol, com resposta rápida pelo WhatsApp em qualquer um dos três idiomas.</p>
+        <h4 data-i18n="faq3_q">Vocês atendem em inglês e espanhol?</h4>
+        <p class="faq-answer" data-i18n="faq3_a">Sim, atendemos em português, inglês e espanhol, com resposta rápida pelo WhatsApp em qualquer um dos três idiomas.</p>
       </div>
       <span class="faq-plus">+</span>
     </div>
     <div class="faq-item">
       <div>
-        <h4>Como escolher a embarcação certa pro meu grupo?</h4>
-        <p class="faq-answer">Você não precisa escolher sozinho: conta pra gente o tamanho do grupo e a ocasião, e indicamos até 5 opções ideais entre as mais de 50 embarcações parceiras.</p>
+        <h4 data-i18n="faq4_q">Como escolher a embarcação certa pro meu grupo?</h4>
+        <p class="faq-answer" data-i18n="faq4_a">Você não precisa escolher sozinho: conta pra gente o tamanho do grupo e a ocasião, e indicamos até 5 opções ideais entre as mais de 50 embarcações parceiras.</p>
       </div>
       <span class="faq-plus">+</span>
     </div>
@@ -236,11 +233,11 @@
 
 <!-- FINAL CTA -->
 <div class="final-cta">
-  <h2 class="display">Vamos planejar o seu dia no mar?</h2>
-  <p>Fale agora com a gente e receba a recomendação ideal pro seu grupo, em minutos.</p>
-  <a class="btn-whatsapp large" href="#" target="_blank" rel="noopener">
+  <h2 class="display" data-i18n="final_h2">Vamos planejar o seu dia no mar?</h2>
+  <p data-i18n="final_p">Fale agora com a gente e receba a recomendação ideal pro seu grupo, em minutos.</p>
+  <a class="btn-whatsapp large" href="#">
     <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.9 1-.3.2-.6.1a6.7 6.7 0 01-2-1.2 7.4 7.4 0 01-1.4-1.7c-.1-.2 0-.4.1-.5s.2-.3.4-.4.2-.2.3-.4a.5.5 0 000-.5c-.1-.1-.6-1.5-.9-2s-.5-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4c.6.3 1.1.4 1.5.6a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.1-1.3c-.1-.1-.2-.2-.4-.3z"/></svg>
-    Falar no WhatsApp
+    <span data-i18n="whatsapp_cta">Falar no WhatsApp</span>
   </a>
 </div>
 
@@ -254,28 +251,28 @@
   </div>
   <div class="footer-cols">
     <div class="footer-col">
-      <h5>Navegue</h5>
-      <a href="#roteiros">Roteiros</a>
-      <a href="#barcos">Barcos</a>
-      <a href="#funciona">Como Funciona</a>
+      <h5 data-i18n="footer_navegue">Navegue</h5>
+      <a href="#roteiros" data-i18n="nav_roteiros">Roteiros</a>
+      <a href="#barcos" data-i18n="nav_barcos">Barcos</a>
+      <a href="#funciona" data-i18n="nav_como_funciona">Como Funciona</a>
     </div>
     <div class="footer-col">
-      <h5>Empresa</h5>
-      <a href="#">Sobre</a>
-      <a href="#">Depoimentos</a>
+      <h5 data-i18n="footer_empresa">Empresa</h5>
+      <a href="#" data-i18n="footer_sobre">Sobre</a>
+      <a href="#" data-i18n="footer_depoimentos">Depoimentos</a>
       <a href="#faq">FAQ</a>
-      <a href="#">Contato</a>
+      <a href="#" data-i18n="footer_contato">Contato</a>
     </div>
     <div class="footer-col">
-      <h5>Fale Conosco</h5>
-      <a href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <h5 data-i18n="footer_fale_conosco">Fale Conosco</h5>
+      <a href="#">WhatsApp</a>
       <a href="#">Instagram</a>
       <a href="mailto:contato@riomaris.com">contato@riomaris.com</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 Rio Maris. Todos os direitos reservados.</span>
-    <span>Rio de Janeiro, Brasil</span>
+    <span data-i18n="footer_rights">© 2026 Rio Maris. Todos os direitos reservados.</span>
+    <span data-i18n="footer_location">Rio de Janeiro, Brasil</span>
   </div>
 </footer>
 
