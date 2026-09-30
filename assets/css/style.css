@@ -200,12 +200,6 @@ section{padding:100px 48px;position:relative;}
 .route-body p.desc{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:18px;}
 .route-link{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold-light);border-bottom:1px solid var(--gold-deep);padding-bottom:4px;}
 
-.pending-note{
-  margin-top:30px;padding:18px 22px;border:1px dashed var(--hairline);border-radius:4px;
-  font-size:13px;color:var(--muted);background:rgba(174,139,62,0.05);
-}
-.pending-note b{color:var(--gold-light);}
-
 /* ---------- barcos ---------- */
 .boat-row{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;}
 .boat-card{border-radius:4px;overflow:hidden;position:relative;height:340px;background-size:cover;background-position:center;}
